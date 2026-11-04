@@ -1,0 +1,10 @@
+name = "menu-lab-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Optional: lock the proxy to your site. Comma-separated. Default "*" allows any origin.
+[vars]
+ALLOWED_ORIGINS = "*"
+
+# Secret (never in this file):
+#   npx wrangler secret put SAGE_API_KEY
